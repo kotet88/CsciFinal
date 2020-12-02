@@ -30,28 +30,28 @@ INSERT INTO Movies VALUES (20,'Star Wars','George Lucas','Sci-Fi',115);
 
 
 -- Creates a table Cast with given attributes 
-CREATE TABLE Cast (Id int REFERENCES Movies (Id), Actor varchar (255), Actress varchar (255), Villain varchar (255), Total_Crew_Members int);
+CREATE TABLE Movie_Cast (Id int REFERENCES Movies (Id), Actor varchar (255), Actress varchar (255), Villain varchar (255), Total_Crew_Members int);
 -- Insert given values into Cast table
-INSERT INTO Cast VALUES (1,'Sam Worthington','Zoe Saldana','Stephen Lang', 25);
-INSERT INTO Cast VALUES (2,'Chris Hemsworth','Scarlett Johansson','Josh Brolin', 50);
-INSERT INTO Cast VALUES (3,'Leonardio DiCaprio','Kate Winslet','Billy Zane', 32);
-INSERT INTO Cast VALUES (4,'John David','Elizabeth Debicki','Robert Pattinson', 28);
-INSERT INTO Cast VALUES (5,'Vin Diesel','Jordana Brewster','Jason Statham', 46);
-INSERT INTO Cast VALUES (6, 'Donald Glover', 'Beyonce Knowles', 'Chiwetel Ejiofor', 20);
-INSERT INTO Cast VALUES (7, 'Chris Pratt', 'Bryce Howard', 'Henry Wu', 41);
-INSERT INTO Cast VALUES (8, 'Shia LaBeouf', 'Megan Fox', 'Dylan Gould', 39);
-INSERT INTO Cast VALUES (9, 'John Hamm', 'Allison Janney', 'Hiroyuki Sanada', 35);
-INSERT INTO Cast VALUES (10, 'Jason Momoa', 'Amber Heard', 'David Hyde', 48); 
-INSERT INTO Cast VALUES (11, 'Robert Downey', 'Gwyneth Paltrow', 'Jeff Bridges', 15);
-INSERT INTO Cast VALUES (12, 'Tom Hardy', 'Anne Weying', 'Carlton Drake', 50);
-INSERT INTO Cast VALUES (13, 'Robert De Niro', 'Zazie Beetz', 'Joaquin Phoenix', 35);
-INSERT INTO Cast VALUES (14, 'Daniel Craig', 'Judi Dench', 'Javier Bardem', 48);
-INSERT INTO Cast VALUES (15, 'Bruce Allpress', 'Cate Blanchett', 'Viggo Mortensen', 24);
-INSERT INTO Cast VALUES (16, 'Tom Cruise', 'Emmanuelle Beart', 'Jean Reno', 46);
-INSERT INTO Cast VALUES (17, 'Rowan Atkinson', 'Tasha Vasconcelos', 'Greg Wise', 44);
-INSERT INTO Cast VALUES (18, 'Dan Stevens', 'Emma Watson', 'Luke Evans', 50);
-INSERT INTO Cast VALUES (19, 'Ray Romano', 'Lorri Bagley', 'Gordon Visnjic', 25);
-INSERT INTO Cast VALUES (20, 'Liam Neeson', 'Natalie Portman', 'Ray Park', 50);
+INSERT INTO Movie_Cast VALUES (1,'Sam Worthington','Zoe Saldana','Stephen Lang', 25);
+INSERT INTO Movie_Cast VALUES (2,'Chris Hemsworth','Scarlett Johansson','Josh Brolin', 50);
+INSERT INTO Movie_Cast VALUES (3,'Leonardio DiCaprio','Kate Winslet','Billy Zane', 32);
+INSERT INTO Movie_Cast VALUES (4,'John David','Elizabeth Debicki','Robert Pattinson', 28);
+INSERT INTO Movie_Cast VALUES (5,'Vin Diesel','Jordana Brewster','Jason Statham', 46);
+INSERT INTO Movie_Cast VALUES (6, 'Donald Glover', 'Beyonce Knowles', 'Chiwetel Ejiofor', 20);
+INSERT INTO Movie_Cast VALUES (7, 'Chris Pratt', 'Bryce Howard', 'Henry Wu', 41);
+INSERT INTO Movie_Cast VALUES (8, 'Shia LaBeouf', 'Megan Fox', 'Dylan Gould', 39);
+INSERT INTO Movie_Cast VALUES (9, 'John Hamm', 'Allison Janney', 'Hiroyuki Sanada', 35);
+INSERT INTO Movie_Cast VALUES (10, 'Jason Momoa', 'Amber Heard', 'David Hyde', 48); 
+INSERT INTO Movie_Cast VALUES (11, 'Robert Downey', 'Gwyneth Paltrow', 'Jeff Bridges', 15);
+INSERT INTO Movie_Cast VALUES (12, 'Tom Hardy', 'Anne Weying', 'Carlton Drake', 50);
+INSERT INTO Movie_Cast VALUES (13, 'Robert De Niro', 'Zazie Beetz', 'Joaquin Phoenix', 35);
+INSERT INTO Movie_Cast VALUES (14, 'Daniel Craig', 'Judi Dench', 'Javier Bardem', 48);
+INSERT INTO Movie_Cast VALUES (15, 'Bruce Allpress', 'Cate Blanchett', 'Viggo Mortensen', 24);
+INSERT INTO Movie_Cast VALUES (16, 'Tom Cruise', 'Emmanuelle Beart', 'Jean Reno', 46);
+INSERT INTO Movie_Cast VALUES (17, 'Rowan Atkinson', 'Tasha Vasconcelos', 'Greg Wise', 44);
+INSERT INTO Movie_Cast VALUES (18, 'Dan Stevens', 'Emma Watson', 'Luke Evans', 50);
+INSERT INTO Movie_Cast VALUES (19, 'Ray Romano', 'Lorri Bagley', 'Gordon Visnjic', 25);
+INSERT INTO Movie_Cast VALUES (20, 'Liam Neeson', 'Natalie Portman', 'Ray Park', 50);
 
 
 
